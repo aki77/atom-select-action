@@ -55,7 +55,8 @@ class SelectItemsView extends BaseSelectListView
     items = _.result(this, '_items')
     return @setItems(items) if _.isArray(items)
 
-    @setItems([])
+    delete @items
+    @list.empty()
     @setLoading("Loading\u2026")
     items.then((result) =>
       @setItems(result)
