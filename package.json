@@ -1,6 +1,6 @@
 {
   "name": "@aki77/atom-select-action",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Atom select list view",
   "main": "lib/action-select-list-view",
   "scripts": {
